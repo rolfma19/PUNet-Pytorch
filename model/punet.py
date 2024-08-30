@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 from pointnet2_ops.pointnet2_modules import PointnetSAModule, PointnetFPModule
-import PUNet_Pytorch.utils.module as pt_utils
+import third_party.PUNet_Pytorch.utils.module as pt_utils
 
 
 def get_model(npoint=1024, up_ratio=2, use_normal=False, use_bn=False, use_res=False):
